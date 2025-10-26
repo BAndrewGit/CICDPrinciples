@@ -29,7 +29,6 @@ public class DemoLibraryApplication {
             library.returnBook("ISBN-001");
             System.out.println("Available after return: " + library.getAvailableBooks());
 
-            throw new IllegalStateException("Intentional failure to prevent push (remove to allow pushing).");
         };
     }
 }
